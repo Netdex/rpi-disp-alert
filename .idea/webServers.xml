@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a200fe8a-d4e2-479c-b8d6-2ba2ae501ffb" name="rpi" url="http://192.168.0.111">
+        <fileTransfer host="192.168.0.111" port="22" rootFolder="/home/netdex/lcd" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
